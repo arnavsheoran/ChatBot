@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Friend Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1 class="chat-title">
+                <span role="img" aria-label="Robot face">🤖</span> Anime Friend
+            </h1>
+            <p class="chat-subtitle">Your assistant for recommending anime.</p>
+        </header>
+        <div class="chat-window" id="chatWindow">
+            <div class="message bot-message">
+                Hello! I'm your Anime Friend, your assistant for recommending anime. How can I help you today?
+            </div>
+        </div>
+        <form id="chatForm" class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Ask about anime recommendations..." required>
+            <button type="submit" id="sendBtn">Send</button>
+        </form>
+    </div>
+
+    <!-- <script src="https://unpkg.com/@google/genai@0.2.1/dist/index.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
